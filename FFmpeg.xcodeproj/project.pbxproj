@@ -381,9 +381,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3TP4665PF2;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/FFmpeg/Framework",
+					"$(SRCROOT)/FFmpeg/Decoder",
 					"$(PROJECT_DIR)/FFmpeg/Decoder",
+					"$(inherited)",
 				);
 				INFOPLIST_FILE = FFmpeg/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -404,9 +404,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3TP4665PF2;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/FFmpeg/Framework",
+					"$(SRCROOT)/FFmpeg/Decoder",
 					"$(PROJECT_DIR)/FFmpeg/Decoder",
+					"$(inherited)",
 				);
 				INFOPLIST_FILE = FFmpeg/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

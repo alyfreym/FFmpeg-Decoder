@@ -12,9 +12,9 @@ s.platform     = :ios, "8.0"
 s.source       = { :git => 'https://github.com/yellowei/FFmpeg-Decoder.git', :tag => "#{s.version}" }
 s.frameworks  = "UIKit", "Foundation"
 s.requires_arc = true
-
 s.vendored_frameworks = "FFmpeg/Decoder/FFmpeg.framework"
 s.libraries = 'z', 'iconv', 'bz2'
 s.source_files = 'FFmpeg/Decoder/*.{h,m}'
+s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(SRCROOT)/FFmpeg/Decoder' }
 
 end
