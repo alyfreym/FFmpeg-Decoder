@@ -17,7 +17,7 @@
 		0E44F2E4210FF3C5004E7135 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E44F2E3210FF3C5004E7135 /* libz.tbd */; };
 		0E44F2E6210FF3CB004E7135 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E44F2E5210FF3CB004E7135 /* libiconv.tbd */; };
 		0E44F2E8210FF3CF004E7135 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E44F2E7210FF3CF004E7135 /* libbz2.tbd */; };
-		0E44F53C211070DF004E7135 /* FFmpeg-iOS.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 0E44F53B211070DF004E7135 /* FFmpeg-iOS.podspec */; };
+		0E44F53C211070DF004E7135 /* FFmpeg-Decoder.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 0E44F53B211070DF004E7135 /* FFmpeg-Decoder.podspec */; };
 		0E44F5BF21107739004E7135 /* CYPlayerDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E44F5BB21107739004E7135 /* CYPlayerDecoder.m */; };
 		0E44F5C021107739004E7135 /* CYAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E44F5BC21107739004E7135 /* CYAudioManager.m */; };
 		0E44F5C22110777E004E7135 /* FFmpeg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E44F5C12110777E004E7135 /* FFmpeg.framework */; };
@@ -38,7 +38,7 @@
 		0E44F2E3210FF3C5004E7135 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		0E44F2E5210FF3CB004E7135 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		0E44F2E7210FF3CF004E7135 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
-		0E44F53B211070DF004E7135 /* FFmpeg-iOS.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FFmpeg-iOS.podspec"; sourceTree = "<group>"; };
+		0E44F53B211070DF004E7135 /* FFmpeg-Decoder.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FFmpeg-Decoder.podspec"; sourceTree = "<group>"; };
 		0E44F5BA21107739004E7135 /* CYAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYAudioManager.h; sourceTree = "<group>"; };
 		0E44F5BB21107739004E7135 /* CYPlayerDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYPlayerDecoder.m; sourceTree = "<group>"; };
 		0E44F5BC21107739004E7135 /* CYAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYAudioManager.m; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 		0E44F2B4210FF057004E7135 = {
 			isa = PBXGroup;
 			children = (
-				0E44F53B211070DF004E7135 /* FFmpeg-iOS.podspec */,
+				0E44F53B211070DF004E7135 /* FFmpeg-Decoder.podspec */,
 				0E44F2BF210FF057004E7135 /* FFmpeg */,
 				0E44F2BE210FF057004E7135 /* Products */,
 				0E44F2E2210FF3C5004E7135 /* Frameworks */,
@@ -201,7 +201,7 @@
 				0E44F2CD210FF058004E7135 /* LaunchScreen.storyboard in Resources */,
 				0E44F2CA210FF058004E7135 /* Assets.xcassets in Resources */,
 				0E44F2C8210FF057004E7135 /* Main.storyboard in Resources */,
-				0E44F53C211070DF004E7135 /* FFmpeg-iOS.podspec in Resources */,
+				0E44F53C211070DF004E7135 /* FFmpeg-Decoder.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
