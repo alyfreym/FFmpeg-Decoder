@@ -2,8 +2,8 @@
 Pod::Spec.new do |s|
 
 s.name         = "FFmpeg-Decoder"
-s.version      = "0.0.1"
-s.summary      = 'A video player.'
+s.version      = "0.0.2"
+s.summary      = 'A iOS Video&Audio Decoder.'
 s.description  = 'https://github.com/yellowei/FFmpeg-Decoder'
 s.homepage     = 'https://github.com/yellowei/FFmpeg-Decoder'
 s.license      = { :type => "MIT", :file => "LICENSE" }
