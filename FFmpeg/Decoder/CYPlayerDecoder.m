@@ -15,15 +15,6 @@
 #import "CYAudioManager.h"
 #import "CYLogger.h"
 
-//#import <VideoToolbox/VideoToolbox.h>
-//#import <AudioToolbox/AudioToolbox.h>
-//#include "avcodec.h"
-//#include "avdevice.h"
-//#include "avfilter.h"
-//#include "avformat.h"
-//#include "avutil.h"
-//#include "swscale.h"
-//#include "swresample.h"
 
 ////////////////////////////////////////////////////////////////////////////////
 NSString * cyplayerErrorDomain = @"com.yellowei.www.CYPlayer";
@@ -470,7 +461,7 @@ static int interrupt_callback(void *ctx);
 {
     return _position;
 }
-/*
+
 - (void) setPosition: (CGFloat)seconds
 {
     _position = seconds;
@@ -1700,7 +1691,6 @@ static int interrupt_callback(void *ctx)
     return ms;
 }
     
-    */
 
 @end
 
